@@ -4,4 +4,4 @@ pres.pdf: pres.tex pres-main.tex
 	xelatex pres.tex
 	xelatex pres.tex
 pres-main.tex: pres.md
-	pandoc -t beamer pres.md -o pres-main.tex
+	pandoc -t beamer --listing pres.md -o pres-main.tex

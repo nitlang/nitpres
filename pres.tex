@@ -55,6 +55,30 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
 
+%%%%LISTING%%%%
+
+\usepackage{listings}
+% definition of the nit language
+\lstdefinelanguage{nit}{%
+keywords={import,class,interface,universal,super,fun,var,redef,protected,private,module,init,do,end,new,%
+		return,if,then,else,while,for,loop,in,isa,isset,break,continue,label,%
+		is,abstract,self,true,false,null,nullable,writable,assert,and,or,not,extern,intern},%
+morecomment=[l]{\#},%
+morestring=[b]",%
+}
+
+% disable spaces ij strings by default
+\lstset{basicstyle=\scriptsize\ttfamily,%
+	keywordstyle=\bf\color{green!30!black},%
+	commentstyle=\itshape\color{green!30!black},%
+	language=nit,%
+	inputencoding=utf8,%
+	tabsize=3,%
+	showstringspaces=false,%
+}
+
+%%%%%%%%%%%%%%%
+
 \title{Nit --- un langage d'avenir}
 \date{}
 
