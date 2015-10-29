@@ -1,5 +1,7 @@
 % Nit --- un langage d'avenir
 
+\frame{\frametitle{Sommaire}\begin{minipage}{\textwidth}\small\tableofcontents\end{minipage}}
+
 # Qu'est-ce que Nit?
 
 ### Qu'est-ce que Nit?
@@ -22,7 +24,7 @@ Le typage statique permet de prévenir des erreurs lors du développement ainsi 
 
 ### Sympathique
 
-résout plus de problème qu'il en cause. le typage statique de Nit de Nit évite les frustrations et les verbosités inutiles.
+En résolvant plus de problème qu'il en cause, le typage statique de Nit évite les frustrations et les verbosités inutiles.
 
 Il ne faut pas se tromper de combat: le programmeur ne devrait pas avoir à se battre avec son langage de programmation.
 
@@ -36,7 +38,7 @@ Nit en bref: Ruby (ou Python) avec des types statiques, un compilateur et un vra
 
 ### Motivations: pourquoi un nouveau langage
 
-Impossible d'intégrer certains nouveaux trais de langages sans briser les fondements langages existants
+Impossible d'intégrer certains nouveaux traits de langages sans briser les fondements langages existants
 
 Impossible de travailler sur les fondements des langages existants sans briser les programmes existants
 
@@ -48,12 +50,18 @@ Il n'y a aucun langage a objet moderne, a typage statique, cohérent dans sa spe
 
 * Spécification sur 8 pages (mage 2mm, double colonne, 5pt)
 
-### nitg + lib
+### Catalogue des paquets
 
-* 57 modules
-* 2010 définitions de classes
-* 83386 noeuds dans les AST
-* 3353 introduction de méthodes
+* 146 packages
+* 11 maintainers
+* 28 contributors
+* 33 tags
+* 850 modules
+* 9294 classes
+* 50418 methods
+* 302648 lines of code
+
+Voir \url{http://nitlanguage.org/catalog/}
 
 # Trucs cools du langage
 
@@ -76,6 +84,16 @@ redef class Int
    end
 end
 ~~~
+
+### Raffinement de classes
+
+Programmation par aspect
+
+* Sans les problème de tissage
+
+Programmation par *monkey-patching*
+
+* Vérifié statiquement
 
 ## Types nullables et typage adaptatif
 
@@ -126,7 +144,7 @@ if a != null then print a # accepté
 print a or else "(null)" # accepté
 ~~~
 
-## Portabilité
+## Portabilité et support natif
 
 ### Support natif Android
 
@@ -147,38 +165,133 @@ N'exposer la puissance que si nécessaire
 print "hello world"
 ~~~
 
-Sous le tapi, il n'y a qu'objets, polymorphisme et modules.
+Sous le tapis, il n'y a qu'objets, polymorphisme et modules.
 
 # Quelques projets cools en Nit
 
 ## Nitc et les outils
 
-### Compilateur et compilateur optimisant
+### Le package nitc
+
+Stats des outils:
+
+* 184 modules
+* 2625 classes
+* 8662 methods
+* 88916 lines of code
+
+Voir \url{http://nitlanguage.org/catalog/p/nitc.html}
+
+### nitc: Compilateur et compilateur optimisant
 
 TODO
 
-### Interpréteur
+
+Voir \url{http://nitlanguage.org/tools/nitc.html}
+
+### nit: Interpréteur
 
 ~~~sh
 nit -e 'print "hello world"'
 ~~~
 
-### Autodocumentation
+Voir \url{http://nitlanguage.org/tools/nit.html}
+
+### nitdoc: Autodocumentation
 
 nitdoc, outil d'avenir
 
-### Tests unitaires
+Voir \url{http://nitlanguage.org/tools/nitdoc.html}
+
+### nitunit: Tests unitaires
+
+TODO
+
+Voir \url{http://nitlanguage.org/tools/nitunit.html}
 
 ### Le reste
 
-## Nitcorn et Opportunité
+* nitx
+* nitls
+* nitpick
+* nitpretty
+* nitserial
+* nitmetrics
+* nitlight
 
-## Crazy moles et autres jeux
+Voir \url{http://nitlanguage.org/tools/}
+
+## Nitcorn et Application Web
+
+### Nitcorn
+
+Framework de serveur web.
+
+Voir \url{http://nitlanguage.org/catalog/p/nitcorn.html}
+
+### Opportunité
+
+* Planifier des rencontres
+* Sondages simples
+* Reserver des pizzas
+
+Voir \url{http://nitlanguage.org/catalog/p/opportunity.html}
+
+### NitRPG
+
+Ludification du développement sur Github.
+
+Les contributeurs de projets hébergés chez github sont les joueurs et s'affrontent sur les dépôt de code pour gagner nitcoins et gloire.
+
+Voir \url{http://nitlanguage.org/catalog/p/nitrpg.html}
+
+### Benitlux
+
+Liste de diffusion qui permet d'être informé sur les bières disponibles à la brasserie Benélux.
+
+Voir \url{http://nitlanguage.org/catalog/p/benitlux.html}
+
+## Jeux Vidéos
+
+### Crazy Moles
+
+Tape-taupes avec des particules.
+
+Voir \url{http://nitlanguage.org/catalog/p/crazy_moles.html}
+
+### Chainz of Friends
+
+Casse-tête où il faut connecter des monstres trop minions sur une grille.
+
+Voir \url{http://nitlanguage.org/catalog/p/friendz.html}
+
+### Memorize shapes and colors
+
+Êtes-vous capable de mémoriser une séquence de figures?
+
+Voir \url{http://nitlanguage.org/catalog/p/memory.html}
+
+### Tinks
+
+Un jeu d'action multijoueurs où tank s'affrontent sur un terrain généré procéduralement.
+
+Voir \url{http://nitlanguage.org/catalog/p/tinks.html}
+
+### WBTW
+
+TODO
 
 # Contribuer à Nit
 
-## Logiciel libre
+### Logiciel libre
 
-## ~~~Tout~~~ Beaucoup reste à faire
+TODO
 
-## Intégration continue
+### ~~Tout~~ Beaucoup reste à faire
+
+TODO
+
+### Intégration continue
+
+TODO
+
