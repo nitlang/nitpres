@@ -33,15 +33,18 @@
   \let\partname\relax
   \frame{\partpage}
 }
-\AtBeginSection{
+\newcommand\AtBeginSectionx{\AtBeginSection{
   \let\insertsectionnumber\relax
   \let\sectionname\relax
-  \frame{\sectionpage}
-}
+  %\frame{\sectionpage}
+  \frame{\tableofcontents[currentsection]}
+}}
+\AtBeginSection{\AtBeginSectionx}
 \AtBeginSubsection{
   \let\insertsubsectionnumber\relax
   \let\subsectionname\relax
-  \frame{\subsectionpage}
+  %\frame{\subsectionpage}
+  \frame{\tableofcontents[currentsubsection]}
 }
 
 \usepackage[normalem]{ulem}
@@ -63,11 +66,8 @@
 \begin{document}
 \frame{\titlepage}
 
-\begin{frame}
-
-\frame{\frametitle{Sommaire}\begin{minipage}{\textwidth}\small\tableofcontents\end{minipage}}
-
-\end{frame}
+%\frame{\frametitle{Sommaire}\begin{minipage}{\textwidth}\small\tableofcontents\end{minipage}}
+\frame{\tableofcontents}
 
 \include{pres-main}
 
