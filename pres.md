@@ -1,7 +1,3 @@
-% Nit --- un langage d'avenir
-
-\frame{\frametitle{Sommaire}\begin{minipage}{\textwidth}\small\tableofcontents\end{minipage}}
-
 # Qu'est-ce que Nit?
 
 ### Qu'est-ce que Nit?

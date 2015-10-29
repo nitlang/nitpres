@@ -4,7 +4,9 @@ pres.nav
 pres.out
 pres.pdf
 pres.snm
-pres.tex
 pres.toc
 pres.vrb
 pres-6up.pdf
+
+pres-main.tex
+pres-main.aux
