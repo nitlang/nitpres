@@ -57,7 +57,7 @@ Il n'y a aucun langage a objet moderne, a typage statique, cohérent dans sa spe
 * 50418 methods
 * 302648 lines of code
 
-Voir \url{http://nitlanguage.org/catalog/}
+Voir <http://nitlanguage.org/catalog/>
 
 # Trucs cools du langage
 
@@ -176,14 +176,14 @@ Stats des outils:
 * 8662 methods
 * 88916 lines of code
 
-Voir \url{http://nitlanguage.org/catalog/p/nitc.html}
+Voir <http://nitlanguage.org/catalog/p/nitc.html>
 
 ### nitc: Compilateur et compilateur optimisant
 
 TODO
 
 
-Voir \url{http://nitlanguage.org/tools/nitc.html}
+Voir <http://nitlanguage.org/tools/nitc.html>
 
 ### nit: Interpréteur
 
@@ -191,19 +191,19 @@ Voir \url{http://nitlanguage.org/tools/nitc.html}
 nit -e 'print "hello world"'
 ~~~
 
-Voir \url{http://nitlanguage.org/tools/nit.html}
+Voir <http://nitlanguage.org/tools/nit.html>
 
 ### nitdoc: Autodocumentation
 
 nitdoc, outil d'avenir
 
-Voir \url{http://nitlanguage.org/tools/nitdoc.html}
+Voir <http://nitlanguage.org/tools/nitdoc.html>
 
 ### nitunit: Tests unitaires
 
 TODO
 
-Voir \url{http://nitlanguage.org/tools/nitunit.html}
+Voir <http://nitlanguage.org/tools/nitunit.html>
 
 ### Le reste
 
@@ -215,7 +215,7 @@ Voir \url{http://nitlanguage.org/tools/nitunit.html}
 * nitmetrics
 * nitlight
 
-Voir \url{http://nitlanguage.org/tools/}
+Voir <http://nitlanguage.org/tools/>
 
 ## Nitcorn et Application Web
 
@@ -223,7 +223,7 @@ Voir \url{http://nitlanguage.org/tools/}
 
 Framework de serveur web.
 
-Voir \url{http://nitlanguage.org/catalog/p/nitcorn.html}
+Voir <http://nitlanguage.org/catalog/p/nitcorn.html>
 
 ### Opportunité
 
@@ -231,7 +231,7 @@ Voir \url{http://nitlanguage.org/catalog/p/nitcorn.html}
 * Sondages simples
 * Reserver des pizzas
 
-Voir \url{http://nitlanguage.org/catalog/p/opportunity.html}
+Voir <http://nitlanguage.org/catalog/p/opportunity.html>
 
 ### NitRPG
 
@@ -239,13 +239,13 @@ Ludification du développement sur Github.
 
 Les contributeurs de projets hébergés chez github sont les joueurs et s'affrontent sur les dépôt de code pour gagner nitcoins et gloire.
 
-Voir \url{http://nitlanguage.org/catalog/p/nitrpg.html}
+Voir <http://nitlanguage.org/catalog/p/nitrpg.html>
 
 ### Benitlux
 
 Liste de diffusion qui permet d'être informé sur les bières disponibles à la brasserie Benélux.
 
-Voir \url{http://nitlanguage.org/catalog/p/benitlux.html}
+Voir <http://nitlanguage.org/catalog/p/benitlux.html>
 
 ## Jeux Vidéos
 
@@ -253,25 +253,25 @@ Voir \url{http://nitlanguage.org/catalog/p/benitlux.html}
 
 Tape-taupes avec des particules.
 
-Voir \url{http://nitlanguage.org/catalog/p/crazy_moles.html}
+Voir <http://nitlanguage.org/catalog/p/crazy_moles.html>
 
 ### Chainz of Friends
 
 Casse-tête où il faut connecter des monstres trop minions sur une grille.
 
-Voir \url{http://nitlanguage.org/catalog/p/friendz.html}
+Voir <http://nitlanguage.org/catalog/p/friendz.html>
 
 ### Memorize shapes and colors
 
 Êtes-vous capable de mémoriser une séquence de figures?
 
-Voir \url{http://nitlanguage.org/catalog/p/memory.html}
+Voir <http://nitlanguage.org/catalog/p/memory.html>
 
 ### Tinks
 
 Un jeu d'action multijoueurs où tank s'affrontent sur un terrain généré procéduralement.
 
-Voir \url{http://nitlanguage.org/catalog/p/tinks.html}
+Voir <http://nitlanguage.org/catalog/p/tinks.html>
 
 ### WBTW
 
