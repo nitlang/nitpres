@@ -8,11 +8,11 @@ Nit est un langage expressif avec un syntaxe à la script, un système de type s
 
 Commodité offerte au programmeur pour exprimer ses concepts et besoins.
 
-La programmation orienté-objets et orienté-préoccupations (*concerns*) permettre au programmeur d'abstraire et d'organiser ses idées.
+La programmation orientée-objets et orientée-préoccupations (*concerns*) permet au programmeur d'abstraire et d'organiser ses idées.
 
 ### Langage de script
 
-Langage offrant des instructions simples et une grammaire souple permettant un prototypage rapide car les structuration verbeuses et inutiles sont éliminés.
+Langage offrant des instructions simples et une grammaire souple permettant un prototypage rapide car les structurations verbeuses et inutiles sont éliminées.
 
 ### Système de type
 
@@ -44,7 +44,7 @@ Il n'y a aucun langage a objet moderne, a typage statique, cohérent dans sa spe
 
 ### Nit, le langage
 
-* Spécification sur 8 pages (mage 2mm, double colonne, 5pt)
+* Spécification sur 8 pages (marge 2mm, double colonne, 5pt)
 
 ### Catalogue des paquets
 
@@ -85,7 +85,7 @@ end
 
 Programmation par aspect
 
-* Sans les problème de tissage
+* Sans les problèmes de tissage
 
 Programmation par *monkey-patching*
 
