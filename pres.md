@@ -233,6 +233,14 @@ Voir <http://nitlanguage.org/catalog/p/nitcorn.html>
 
 Voir <http://nitlanguage.org/catalog/p/opportunity.html>
 
+### Nitiwiki
+
+* Compilateur de site web wiki
+* Stable, robuste efficace
+* Basé sur git, connectable avec github
+
+Voir <http://nitlanguage.org/catalog/p/nitiwiki.html>
+
 ### NitRPG
 
 Ludification du développement sur Github.
