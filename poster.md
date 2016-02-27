@@ -1,6 +1,6 @@
 ## Nit Philosophy
 
-* Elegance: The theoretical concepts on which Nit are based should powerful and consistent
+* Elegance: The theoretical concepts on which Nit is based should powerful and consistent
 * Simplicity: KISS . Unnecessary complexity should be avoided
 * Intutivity: POLA . The concepts and semantics of language constructs should seem natural to any programmer.
 
@@ -44,7 +44,7 @@ Class Refinement is
 ## Concern-Oriented Development
 
 Nit source files are called modules.
-A module can define classes and methods, can import classes and method of imported modules and can refine them.
+A module can define classes and methods, import them (by importing other modules), and refine them.
 
 Since a single class can be refined by multiple modules, Nit promotes Concern-Oriented Development where each module ideally operates on a single concern.
 A Nit program is just a module that imports all the required concerns.
@@ -136,7 +136,7 @@ fun in_objc in "ObjC" `{ NSLog (@"In Objective C\n"); `}
 See <http://nitlanguage.org/tools/nitc.html>
 
 
-## Interpreted
+## Interpreter
 
 `nit` is the Nit interpreter.
 
