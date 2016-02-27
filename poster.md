@@ -189,6 +189,9 @@ app.nit provide an abstraction of the common needs of modern applications on mul
 
 > Screenshots for gtk, android, ios
 
+* ![](screenshots/calc_android.png)
+* ![](screenshots/calc_ios.png)
+* ![](screenshots/calc_gtk.png)
 
 See <http://nitlanguage.org/catalog/p/app.html>
 
@@ -199,8 +202,9 @@ See <http://nitlanguage.org/catalog/p/app.html>
 
 Gamnit is a modular framework to create portable 2D or 3D apps in Nit. It is based on the portability framework app.nit and the OpenGL ES 2.0 standard.
 
-> Screenshots of games
-
+* ![](screenshots/dino_android.png)
+* ![](screenshots/tinks3d.png)
+* 
 See <http://nitlanguage.org/catalog/p/gamnit.html>
 
 
